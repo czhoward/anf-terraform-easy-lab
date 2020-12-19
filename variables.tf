@@ -5,19 +5,19 @@ variable "region" {
 
 variable "username" {
   type    = string
-  default = "netapp"
+  default = "colin"
 }
 variable "password" {
   type    = string
-  default = "TIN@d98EppWd"
+  default = "xxxxxxx"
 }
 
 variable "domainname" {
   type    = string
-  default = "anf.test"
+  default = "tf.test"
 }
 
-variable "smbservername" {
+variable "adnetbiosname" {
   type    = string
-  default = "anfsmb"
+  default = "tf"
 }
