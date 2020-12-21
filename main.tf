@@ -245,9 +245,9 @@ resource "azurerm_linux_virtual_machine" "tf-linux-vm-01" {
   }
 
   source_image_reference {
-    publisher = "Canonical"
-    offer     = "0001-com-ubuntu-server-focal"
-    sku       = "20_04-lts"
+    publisher = "Debian"
+    offer     = "debian-10"
+    sku       = "10"
     version   = "latest"
   }
 
